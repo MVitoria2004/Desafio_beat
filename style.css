@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  header{
+    background-color: #129799;
+    width: 218.5vh;
+    height: 30vw;
+  }
+  h1{
+    color:white;
+    font-size: 50px;
+  }
+  
+  .menu ul{
+    width: 218.5vh;
+    display:flex;
+    list-style:none;
+    color:white;
+    gap:90px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .batida{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+  
+
+  
+ 

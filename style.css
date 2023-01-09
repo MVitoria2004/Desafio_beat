@@ -65,40 +65,73 @@ main {
 }
 
 .Aquarela {
-  width: 23%;
-  height: 15vh;
+  width: 21%;
+  height: 14vh;
   color: white;
   font-size: 38px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
+
 }
 
-.textoDaMain {
+.textoMain {
   width: 60%;
-  height: 20vh;
   font-size: 20px;
+  margin-left: 34px;
+  margin-bottom: 45px;
+  margin-top: 24px;
   display: flex;
-  justify-content: flex-end;
-  margin-left: 7%;
-  margin-top: 2%;
+  justify-content: center;
 }
-.imagensMain{
+
+
+
+.imagensMain {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+
+.imagemPrincipalUm {
+  width: 45%;
+  height: 27vw;
+  margin-bottom: 40px;
+
+
+}
+
+.imagemPrincipalDois {
+  width: 45%;
+  margin-bottom: 40px;
+}
+
+.imagemPrincipalTrês {
+  width: 45%;
+
+
+
+
+}
+
+.imagemPrincipalQuatro {
+  width: 45%;
+
+
+
+}
+
+footer {
   border:solid 3px red;
-  width: 70%;
+  width: 100%;
+  background-color: #129799;
 }
-.imagemPrincipalUM{
-width: 43%;
-height: 25vw;
+.imagensFooter{
+  width: 100%;
 }
-.imagemPrincipalDOIS{
-  width: 42%;
-}
-.imagemPrincipalTRÊS{
-  width: 42vw;
-  height: 35%;
-}
-.imagemPrincipalQUATRO{
-  width: 38%;
-  height: 60%;
+.menuFooter{
+  
 }
